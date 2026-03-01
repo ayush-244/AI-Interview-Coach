@@ -35,3 +35,12 @@ def register(data: RegisterRequest, db: Session = Depends(get_db)):
     db.refresh(new_user)
 
     return {"message": "User registered successfully"}
+
+
+
+
+
+
+
+
+
