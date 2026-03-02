@@ -39,6 +39,11 @@ def register(data: RegisterRequest, db: Session = Depends(get_db)):
 
 
 
+    
+
+
+
+
 
 
 
