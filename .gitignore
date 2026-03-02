@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+backend/venv/
+venv/
+.env
+.env.*
+
+# Logs
+*.log
+
+# SQLite DB (if using)
+*.sqlite3
+*.db
+
+# pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
