@@ -88,3 +88,7 @@ def login(data: LoginRequest, db: Session = Depends(get_db)):
         "access_token": token,
         "token_type": "bearer"
     }
+
+
+
+    
